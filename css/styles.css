@@ -29,7 +29,7 @@ body {
   color: #8B503F;
   text-align: center;
   font-size: 2rem;
-  letter-spacing: 0.5px;
+  letter-spacing: .05rem;
   margin: 0 0 2rem;
 }
 
@@ -71,7 +71,7 @@ body {
   }
   .buttons {
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
     justify-content: space-evenly;
   }
   .cta {
