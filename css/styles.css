@@ -1,11 +1,3 @@
-:root {
-  --primaryColor: #8B503F;
-  --secondaryColor: #ec481b;
-  --terciaryColor: #ecd3cd;
-  --primaryFont: "Hedvig Letters Serif", serif;
-  --secondaryFont: "Open Sans", sans-serif;
-}
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -25,15 +17,6 @@ body {
   align-items: center;
 }
 
-/** Globals **/
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
 .container {
   width: 90%;
   max-width: 80rem;
@@ -41,10 +24,9 @@ img {
   margin-right: auto;
 }
 
-/** Current **/
 .button-section__title {
-  font-family: var(--primaryFont);
-  color: var(--primaryColor);
+  font-family: "Hedvig Letters Serif", serif;
+  color: #8B503F;
   text-align: center;
   font-size: 2rem;
   letter-spacing: 0.5px;
@@ -58,8 +40,9 @@ img {
 }
 
 .cta {
-  font-family: var(--secondaryFont);
-  background-color: var(--secondaryColor);
+  font-family: "Open Sans", sans-serif;
+  background-color: #ec481b;
+  text-decoration: none;
   border-radius: 0.6rem;
   display: block;
   color: #ffffff;
@@ -77,8 +60,8 @@ img {
 }
 
 .cta--invalid {
-  background-color: var(--terciaryColor);
-  color: var(--primaryColor);
+  background-color: #ecd3cd;
+  color: #8B503F;
 }
 
 @media (min-width: 550px) {
